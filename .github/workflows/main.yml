@@ -37,6 +37,10 @@ jobs:
 
       - name: Build
         run: |
+          mkdir build && cd build
+          cmake .. && make
+      
+      - name: Run
+        run: |
           ls -la
-          cmake . && make
-          ./app
+          ./build/app
