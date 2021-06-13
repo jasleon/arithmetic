@@ -1,4 +1,6 @@
 # arithmetic
+![build](https://github.com/jasleon/arithmetic/actions/workflows/main.yml/badge.svg)
+
 Experiment with GitHub actions in a C++ project
 
 ## Dependencies
